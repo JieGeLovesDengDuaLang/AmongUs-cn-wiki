@@ -1,2 +1,1 @@
-# Among-Us-wiki-Chinese-wiki
-Among Us Chinese wiki(written by Markdown) / aus 中文维基（使用Markdown编写）持续更新中……
+# 欢迎来到 Among Us中文维基百科！
