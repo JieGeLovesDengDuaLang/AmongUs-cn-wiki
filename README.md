@@ -5,3 +5,5 @@
 ![Innersloth](https://www.innersloth.com/wp-content/uploads/2021/07/SURPRISESLOTH.png)
 
 Innersloth
+## 另请参阅
+[颜色](https://github.com/JieGeLovesDengDuaLang/AmongUs-cn-wiki/blob/main/color/main.md)
