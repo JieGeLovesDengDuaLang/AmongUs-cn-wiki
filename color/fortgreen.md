@@ -22,4 +22,5 @@
 
 ## 琐事
 
-+ 军绿（Fortegreen）的英文名可能是源于Innersloth的程序员[Fortebass]()
++ 军绿（Fortegreen）的英文名可能是源于Innersloth的程序员[Fortebass](https://NoLink.Gui/)。
++ 最开始，军绿的名字不是“???”，而是“Fortebass”。之后又改成了“???”。v2021.4.2版本后，名字又变成了“GareBear”。v2021.6.15后，又改回了三个问号。
