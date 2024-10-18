@@ -77,24 +77,15 @@ public bool AllTasksCompleted();
 <summary>点击展示方法体</summary>
 
 ```csharp
-if (PlayerControl.LocalPlayer != this)
+for (int i = 0; i < this.myTasks.Count; i++)
 {
-	return;
-}
-float flashlightSize = 0f;
-if (this.IsFlashlightEnabled())
-{
-	if (this.Data.Role.IsImpostor)
+	PlayerTask playerTask = this.myTasks[i];
+	if (playerTask is NormalPlayerTask && !playerTask.IsComplete)
 	{
-		GameOptionsManager.Instance.CurrentGameOptions.TryGetFloat(FloatOptionNames.ImpostorFlashlightSize, out flashlightSize);
-	}
-	else
-	{
-		GameOptionsManager.Instance.CurrentGameOptions.TryGetFloat(FloatOptionNames.CrewmateFlashlightSize, out flashlightSize);
+		return false;
 	}
 }
-this.SetFlashlightInputMethod();
-this.lightSource.SetupLightingForGameplay(this.IsFlashlightEnabled(), flashlightSize, this.TargetFlashlight.transform);
+return true;
 ```
 </details>
 
